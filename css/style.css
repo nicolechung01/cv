@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+}
+nav {
+    background-color: #839ab7; 
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+nav a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+footer {
+    background-color: #839ab7; 
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+footer a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #fff;
+}
+.header {
+    background-color: #e1ecfb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    text-align: center;
+}
+.header h1 {
+    font-family: 'Kalam', cursive;
+    font-weight: 400;
+    margin: 5px;
+    font-size: 60px;
+    color: #1f4171;
+}
+.header h2 {
+    font-size: 25px;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    margin: 5px;
+    color: #1f4171;
+}
+.header p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+.intro {
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.intro a {
+    color:#0008ff;
+    text-decoration: none;
+}
+.intro a:hover {
+    cursor: pointer;
+    border-bottom: 1px solid #0008ff;
+    font-style: italic;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.about h2 {
+    font-family: 'Kalam', cursive;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.about p {
+    margin: 0;
+}
+hr {
+    border-color: #1f4171;
+    border-style: dashed;
+    margin-bottom: 30px;
+}
+#computer {
+    position: absolute;
+    height: 100px;
+    left: 250px;
+    top: 130px;
+}
+#sociology {
+    position: absolute;
+    height: 100px;
+    right: 250px;
+    top: 130px;
+}
+#me {
+    border-radius: 50%;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    outline: none;   
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px #636262;
+    background-color: #fff;
+}
+.card h3 {
+    padding-left: 25px;
+    margin-bottom: 0;
+    color: #1f4171;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    gap: 70px;
+}
+#langs {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+#experiences {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 50px 50px;
+    margin-left: 25px;
+}
+#skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 50px);
+    margin-left: 25px;
+}
+.one-col {
+    display: grid;
+    grid-template-columns: 700px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-container {
+    background-color: #e1ecfb;
+}
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(4, 45px);
+    gap: 50px;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+form input, textarea {
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    border: none;
+}
+form label {
+    margin-left: 10px;
+    font-size: 18px;
+}
+#button {
+    background-color: #1f4171;
+    font-family: 'Kalam', cursive;
+    color: #fff;
+    font-size: 20px;
+}
